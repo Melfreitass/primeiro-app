@@ -22,7 +22,7 @@ export default function App() {
           <Text style={styles.tituloInput}>Your Name</Text>
           <TextInput
           style={styles.input}
-          placeholder="Digite algo..."
+          placeholder="Enter your full name"
         ></TextInput>
         </View>
         

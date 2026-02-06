@@ -19,6 +19,7 @@ export default function App() {
         </View>
 
         <View style={styles.secaoLogin}>
+          <Text style={styles.tituloInput}>Your Name</Text>
           <TextInput
           style={styles.input}
           placeholder="Digite algo..."
@@ -60,12 +61,25 @@ const styles = StyleSheet.create({
     fontSize: 40,
   },
   secaoLogin: {
-    backgroundColor: "#000000",
-    height: 800,
+    backgroundColor: "#ffffff",
     alignItems: "baseline",
     justifyContent: "center",
     width: '100%',
-    padding: 20
+    padding: 50,
+    paddingTop: 30
   },
-  input: {},
+  tituloInput: {
+    color: "#4d4d4daf",
+    fontWeight: 600
+  },
+  input: {
+    marginTop: 8,
+    height: 40,
+    width: '100%',
+    borderColor: "#6ab8cf8a",
+    borderWidth: 1.8,
+    borderRadius: 10,
+    backgroundColor:"#84badf34",
+    paddingLeft: 20,
+  }
 });
